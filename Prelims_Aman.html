@@ -1,0 +1,229 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Joshua Aman's Resume</title>
+    <style>
+        body {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 25px 50px;
+        }
+        
+        .header {
+            background-color: #3A546D;
+            color: whitesmoke;
+
+        }
+
+        #middle {
+            margin: 0px;
+            padding: 0px 50px 0px 25px;
+        }
+
+        #profile {
+            border-radius: 50%;
+            height: 200px;
+            width: auto;
+        }
+
+        dl {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        dd {
+            margin: 0;
+            padding: 0;
+        }
+
+        h3 {
+            font-weight: 500;
+            padding-top: 0;
+            margin-top: 0;
+        }
+
+        h1 {
+            padding-bottom: 10px;
+            margin-bottom: 0;
+        }
+
+        #about {
+            text-align: justify;
+            color: lightgrey;
+            font-size: smaller;
+        }
+        
+        #contact {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #number {
+            background: url('phone.png') no-repeat left center;
+            background-size: 20px;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        #email {
+            background: url('mail.jpg') no-repeat left center;
+            background-size: 20px;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        #address {
+            background: url('house.png') no-repeat left center;
+            background-size: 15px;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        #skill, #label {
+            font-size: 24px;
+            color: #3A546D;
+        }
+
+        #skillList li {
+            list-style-type: none;
+            background: url('check.png') no-repeat left center;
+            background-size: 15px;
+            padding-left: 30px;
+            margin-bottom: 10px;
+        }
+
+        #cert {
+            width: 500px;
+            height: auto;
+            margin: 20px;
+        }
+
+        #educDl dt {
+            font-size: 20px;
+        }
+
+        #reference {
+            margin: 10px;
+            padding: 10px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #ref {
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+        }
+
+        #ref p, #educDl dd {
+            font-size: smaller;
+            color:gray;
+        }
+
+        strong {
+            font-size: 23px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table class="header" style="width: 70%;">
+            <tr>
+                <td id="left"><img src="Aman.jpg" id="profile"></td>
+                <td id="middle" style="width: 60%">
+                    <dl>
+                        <dt><h1>PAUL JOSHUA AMAN</h1></dt>
+                        <dd><h3>BACKEND PROGRAMMER</h3><hr></dd>
+                    </dl>
+                    <p id="about"><i>
+                    As a driven programmer, I am committed to delivering results that exceed expectations in researching, developing, programming, and maintaining.
+                    I am cooperative and capable to lead. I am seeking to learn in a challenging, dynamic and fast-paced environment that will help me 
+                    gather the necessary experience to thrive in this industry.
+                    </i></p>
+                </td>
+                <td id="right">
+                    <ul id="contact">
+                        <li id="number">+63 969 245 4230</li>
+                        <li id="email">amanpauljoshua@gmail.com</li>
+                        <li id="address">Naga, Camarines Sur, 4400</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table class="body" style="width:65%">
+            <tr>
+                <td style="width:25%">
+                    <label for="soft" id="skill"><b>GENERAL SKILLS</b></label>
+                    <ul id="skillList">
+                        <li>Communcation</li>
+                        <li>Teamwork</li>
+                        <li>Problem Solving</li>
+                        <li>Active Listening</li>
+                        <li>Patience</li>
+                        <li>Empathy</li>
+                        <li>Time Management</li>
+                        <li>Emotional Intelligence</li>
+                    </ul>
+                    <br><br>
+                    <label for="hard" id="skill"><b>TECHNICAL SKILLS</b></label>
+                    <ul id="skillList">
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java</li>
+                        <li>JavaScript</li>
+                        <li>NodeJS</li>
+                        <li>MongoDB</li>
+                        <li>Google Docs</li>
+                        <li>Word</li>
+                    </ul>
+                    <br><br>
+                    <label for="lang" id="skill"><b>LANGUAGES</b></label>
+                    <ul id="skillList">
+                        <li>English</li>
+                        <li>Filipino</li>
+                    </ul>
+                </td>
+                <td style="width: 45%;">
+                    <h2 id="label">CERTIFICATES</h2>
+                    <img src="joinCert.jpg" id="cert">
+                    <br>
+                    <h2 id="label">EDUCATION</h2>
+                    <ol id="educ">
+                        <li><dl id="educDl">
+                            <dt><b>High School</b></dt>
+                            <dd>Ateneo de Naga University High School</dd>
+                        </dl></li>
+                        <li><dl id="educDl">
+                            <dt><b>College</b></dt>
+                            <dd>Ateneo de Naga University</dd>
+                            <dd>Bachelor in Computer Science</dd>
+                        </dl></li>
+                    </ol>
+                    <br>
+                    <h2 id="label">REFERENCES</h2>
+                    <table id="reference">
+                        <tr>
+                            <td id="ref">
+                                <strong>Ma. Theresa Aguilar</strong>
+                                <p>mtaguilar@gbox.adnu.edu.ph</p>
+                            </td>
+                            <td id="ref">
+                                <strong>Jobb Q. Rodriguez</strong>
+                                <p>jorodriguez@gbox.adnu.edu.ph</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
